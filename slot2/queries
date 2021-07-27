@@ -1,0 +1,48 @@
+-- select  a.GameId, 
+--         a.TeamId, 
+--         a.PlayerId, 
+--         a.FieldTime_Sec, 
+--         a.FieldGoalsMade, 
+--         a.FieldGoalAttempts, 
+--         a.3PointsMade, 
+--         a.3PointAttempts, 
+--         a.FreeThrowsMade, 
+--         a.FreeThrowAttempts, 
+--         a.PlusMinus, 
+--         a.OffensiveRebounds, 
+--         a.DefensiveRebounds, 
+--         a.TotalRebounds, 
+--         a.Assists,
+--         a.PersonalFouls,
+--         a.Steals,
+--         a.Turnovers,
+--         a.BlockedShots,
+--         a.BlocksAgainst,
+--         a.Points,
+--         a.Starter,
+--         b.PlayerName
+--         from nba_actions as a,
+--              nba_player as b 
+--         where a.PlayerId = b.PlayerId and 
+--          a.FieldTime_Sec > 20
+--          order by a.FieldTime_Sec desc
+             
+-- select GameId, Team1Id, Team2Id, ResultOfTeam1, URL, Date from nba_game
+-- select PlayerId, PlayerName from nba_player
+-- select TeamId, TeamName from nba_team
+
+
+-- select  a.PlayerId, 
+--         a.Points,
+--         b.PlayerName
+--         from nba_actions as a,
+--              nba_player as b 
+--         where a.PlayerId = b.PlayerId and 
+--          a.FieldTime_Sec > 20 and
+--          max(avg(a.Points)/avg(a.FieldTime_Sec))
+--         --  order by a.Points desc
+select a.PlayerId, a.GameId, a.Points, b.PlayerName, a.FieldTime_Sec 
+        from nba_actions as a,
+             nba_player as b 
+        where a.PlayerId = b.PlayerId and
+          b.PlayerName like "%Lebron%"
