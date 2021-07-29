@@ -11,4 +11,4 @@
 
 
 ## Fim
-    Termine com uma chamada para ação, descreva os acionáveis acerca da solução apresentada e amostre quais outros desdobramentos podem ocorrer após implementação da solução.            
+    Termine com uma chamada para *ação*, descreva os acionáveis acerca da solução apresentada e amostre quais outros *desdobramentos* podem ocorrer após implementação da solução.            
