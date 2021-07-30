@@ -35,4 +35,4 @@
         - Legenda direta de dados
         - Potencialização de cores consistentes
 
-          
+29/07/21          
