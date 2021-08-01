@@ -1,6 +1,6 @@
 # Data Preparation
 
-![imagem_8](imagem_8.png)
+![imagem_8](../images/imagem_8.png)
 
 Nessa fase estão os conjutos de dados produzidos pela fase de preparação que serão utilizados na modelagem. Descrever cada conjunto de dados.
 

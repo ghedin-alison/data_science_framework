@@ -1,6 +1,6 @@
 # Deployment
 
-![imagem_11](imagem_11.png)
+![imagem_11](../images/imagem_11.png)
 
 
 ## Planejar Deploy

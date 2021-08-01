@@ -1,6 +1,6 @@
 # Business Understanding
 
-![imagem_6](imagem_6.png)
+![imagem_6](../images/imagem_6.png)
 
 
 ## Objetivos
