@@ -1,6 +1,6 @@
 # Definindo Data understanding
 
-## 4 Tarefas do data understanding
+## As 4 Tarefas do data understanding
     1- Coleta inicial dos dados
     2- Descrição dos dados
     3- Exploração dos dados
